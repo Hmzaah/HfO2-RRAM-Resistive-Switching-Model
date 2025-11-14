@@ -1,48 +1,44 @@
-# ⚡️ RRAM Simulation: Resistive Switching Model in HfO₂
+# ⚡️ HfO₂ RRAM Simulation: Resistive Switching Model
 
-**Project Author:** K Mohammed Hamza
-
-### 🌟 Project Summary
-
-This repository hosts the simulation assets and analysis for modeling **Resistive Random-Access Memory (RRAM)** based on a **Hafnium Dioxide ($\text{HfO}_2$)** active layer. The goal was to quantitatively simulate the I-V characteristics of a non-volatile memory cell, demonstrating the physical transition between the High Resistance State (HRS) and Low Resistance State (LRS). This project showcases strong quantitative modeling and data analysis skills essential for R&D roles in semiconductors and data science.
+**Project Repository:** `https://github.com/Hmzaah/HfO2-RRAM-Resistive-Switching-Model`  
+**Author:** K Mohammed Hamza
 
 ---
 
-### 💡 Background and Motivation
+## 📈 Key Results: I-V Characteristics and Device Structure
 
-RRAM is a leading candidate for next-generation non-volatile memory due to its high density and low power consumption. The device operates by forming and rupturing a conductive filament within the $\text{HfO}_2$ layer. This work focused on developing a predictive model to accurately capture the SET and RESET processes under electrical bias.
+This image summarizes the primary output of the simulation: the **Simulated I-V Curve** (which captures SET/RESET operations) and the **Modeled Device Structure**. This is the key evidence of successful quantitative analysis and device modeling.
 
-### 🛠️ Key Technologies and Methodology
+![Simulated RRAM Device Structure and I-V Characteristics](./IV_Char.jpg)
 
-| Tool/Domain | Functionality |
+---
+
+## 💡 Project Overview
+
+This repository documents the quantitative modeling and simulation of a **Resistive Random-Access Memory (RRAM)** cell based on a **Hafnium Dioxide ($\text{HfO}_2$)** active layer.
+
+This project showcases strong analytical and simulation skills, making it highly relevant for R&D roles in quantitative modeling, specialized Machine Learning, and semiconductor physics internships.
+
+**Goal:** Develop a robust, predictive physical model in **MATLAB** that accurately captures the electrical dynamics and physical mechanisms of the RRAM device's non-volatile switching behavior.
+
+### 🛠️ Methodology & Key Technologies
+
+| Tool/Domain | Functionality Demonstrated |
 | :--- | :--- |
-| **MATLAB** | Core platform for implementing the physical model and solving the device equations for I-V characteristics. |
-| **SEMulator3D** | Used for defining and simulating the 3D structure and process steps of the $\text{HfO}_2$ memory device. |
-| **Semiconductor Physics** | Application of theory related to filament formation, rupture, and resistive switching mechanisms. |
-| **C / Python** (Post-processing) | Utilized for data handling, plotting, and analysis of simulation outputs. |
+| **MATLAB** | Core platform for implementing and solving the physical resistive switching model using complex system equations. |
+| **SEMulator3D** | Used for defining the precise 3D structure and process integration steps of the memory cell. |
+| **Quantitative Analysis** | Applying and validating models based on physical parameters, a core data science skill. |
+| **Semiconductor Physics** | Application of theory governing conductive filament formation and rupture in metal oxides. |
 
 ---
 
-### 📈 Simulation Results: I-V Characteristics
+## 📁 Repository Files & Documentation
 
-The I-V characteristic plot below is the primary result, demonstrating the successful simulation of the resistive switching behavior. The plot clearly shows the transition from the HRS to the LRS (SET) and back to the HRS (RESET), validating the accuracy of the $\text{HfO}_2$ model.
-
-
-
-### 📁 Repository Contents and Documentation
-
-| File/Folder | Description |
+| File Name | Description |
 | :--- | :--- |
-| **`catFile.jpg`** | The raw $\text{SEMulator3D}$ file containing the 3D structure and process steps of the RRAM cell. |
-| **`process.jpg`** | Detailed documentation outlining the step-by-step methodology used in the simulation process. |
-| **`RRAM.jpg`** | A visual render of the final simulated RRAM device structure. |
-| **`IV_Char.jpg`** | Static image of the generated I-V curve plot (the key result). |
-| **[Project Presentation (PDF/PPT)]** | **High-level summary of the methodology, results, and conclusions (Click to view).** |
+| **`project_presentation.pdf`** | **High-level summary of the methodology, results, and conclusions (Click to view).** |
+| **`simulation_steps.pdf`** | Detailed, step-by-step guide outlining the simulation process and methodology. |
+| **`device_layout.cat`** | The raw $\text{SEMulator3D}$ file containing the geometric definitions of the RRAM structure. |
+| **`RRAM.jpg`** | The primary visual asset containing the simulated results and/or device structure. |
 
 ---
-
-
-
-* **LinkedIn:** [hamza-451672259](https://linkedin.com/in/hamza-451672259)
-* **GitHub:** [Hmzaah](https://github.com/Hmzaah)
-* **Email:** `hk1583@srmist.edu.in`
