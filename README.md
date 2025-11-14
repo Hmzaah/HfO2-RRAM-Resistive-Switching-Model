@@ -1,15 +1,10 @@
 # ⚡️ HfO₂ RRAM Simulation: Resistive Switching Model
 
-**Project Repository:** `https://github.com/Hmzaah/HfO2-RRAM-Resistive-Switching-Model`  
-**Author:** K Mohammed Hamza
+## 📈 Key Result: Simulated I-V Characteristics
 
----
+The I-V curve below is the most critical result, demonstrating the successful simulation of the memory cell's resistive switching behavior. It clearly captures the transitions during the **SET** (forming a conductive filament) and **RESET** operations.
 
-## 📈 Key Results: I-V Characteristics and Device Structure
-
-This image summarizes the primary output of the simulation: the **Simulated I-V Curve** (which captures SET/RESET operations) and the **Modeled Device Structure**. This is the key evidence of successful quantitative analysis and device modeling.
-
-![Simulated RRAM Device Structure and I-V Characteristics](./IV_Char.jpg)
+![Simulated I-V Characteristics of HfO2 RRAM](./IV%20Char.png)
 
 ---
 
@@ -32,13 +27,21 @@ This project showcases strong analytical and simulation skills, making it highly
 
 ---
 
+## 🔬 Device Structure
+
+This image illustrates the final 3D structure of the simulated RRAM cell, as designed and modeled for the analysis.
+
+![3D Render of the HfO2 RRAM Device Structure](./RRAM.jpg)
+
+---
+
 ## 📁 Repository Files & Documentation
 
 | File Name | Description |
 | :--- | :--- |
-| **`project_presentation.pdf`** | **High-level summary of the methodology, results, and conclusions (Click to view).** |
-| **`simulation_steps.pdf`** | Detailed, step-by-step guide outlining the simulation process and methodology. |
-| **`device_layout.cat`** | The raw $\text{SEMulator3D}$ file containing the geometric definitions of the RRAM structure. |
-| **`RRAM.jpg`** | The primary visual asset containing the simulated results and/or device structure. |
-
----
+| **[`RRAM_ppt.pptx`](./RRAM_ppt.pptx)** | **(High-level Presentation)** A summary of the methodology, results, and conclusions. |
+| **[`IV Char.png`](./IV%20Char.png)** | (Key Result) The primary I-V characteristic plot. |
+| **[`process.jpg`](./process.jpg)** | (Process Guide) Image outlining the step-by-step simulation methodology. |
+| **[`catLayout.jpg`](./catLayout.jpg)** | (Source Layout) Image of the raw device layout used in $\text{SEMulator3D}$. |
+| **[`catFile.jpg`](./catFile.jpg)** | (Source File) Image of the CAT file contents/parameters. |
+| **[`RRAM.jpg`](./RRAM.jpg)** | (Key Visual) 3D render of the RRAM device. |
